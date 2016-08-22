@@ -1,11 +1,12 @@
 .instant-search-page .banner-container {position: relative;}
-.instant-search-page .banner-container .banner-content-section {position: absolute; padding: 40px; top: 50px; background: #FFF; left: 50px; opacity: 0.9;}
+.instant-search-page .banner-container .banner-content-section {position: absolute; padding: 40px; top: 30px; background: #FFF; left: 30px; opacity: 0.9;}
 .instant-search-page .banner-container .banner-content-section .banner-content-heading {}
 .instant-search-page .banner-container .banner-content-section .banner-content-heading h2 {font-weight: 600;}
 .instant-search-page .banner-container .banner-content-desc {font-size: 1.714em;}
 .instant-search-page .banner-container .banner-content-desc .banner-price {font-size: 1.286em; color: #D8292F; font-weight: 600;}
 .instant-search-page .booking-magnet-container {background: #4A4F55;}
 .instant-search-page .container {padding-top: 40px; padding-bottom: 40px;}
+@media screen and (max-width: 1023px) {.instant-search-page .container {padding-left: 20px; padding-right: 20px;}}
 .instant-search-page .container .instant-row {padding-bottom: 30px;}
 .instant-search-page .container .instant-row:last-child {padding-bottom: 0px;}
 .instant-search-page .container .instant-row .instant-col {padding-left: 10px; padding-right: 10px;}
@@ -26,6 +27,7 @@
 .instant-search-page .histogram-container .instant-row .instant-col {}
 .instant-search-page .histogram-container .instant-row .instant-col .histogram-list {margin: 0; padding: 0; width: 100%; display: block;}
 .instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item {display: inline-block; margin-bottom: 0px; width: calc(100% / 14); margin-right: 49.5px; vertical-align: bottom;}
+@media screen and (max-width: 1023px) {.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item {margin-right: 38.5px;}}
 .instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content {background: #FFF; padding: 10px; cursor: pointer; position: relative; -ms-transition: all 0.2s; -o-transition: all 0.2s; -moz-transition: all 0.2s; -webkit-transition: all 0.2s; transition: all 0.2s;}
 .instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item:last-child {margin-right: 0px;}
 .instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item:last-child .histogram-item-content {background: #FFF;}
