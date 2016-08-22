@@ -98,15 +98,20 @@ calendar = {
     }
     this.wrt("</th>");
 		this.wrt("<th colspan='5' class='calendar-title'><div class='current-title'><span class='current-month-name'>" + this.month_names[month] + "</span><i class='ac-icon ac-1x arrow-down ac-w'></i><ul name='calendar-month-list' class='calendar-month-list' onClick='calendar.makeCalendar(\""+ input_id + "\","+year+",this.value);'>");
-		for(var i in this.month_names) {
-      if(i >= month) {
-        this.wrt("<li class='month-item' value='"+i+"'><span class='month-name'>"+this.month_names[i]+"</span><span class='month-year'>" + year + "</span></li>");
-  			//if(i == month) this.wrt(" selected='selected'");
-  			//this.wrt(">);
+		var i;
+		for(i = currentDate.getMonth(); i < (currentDate.getMonth() + 9); i++) {
+      if( i%12 !== month) {
+				var display_month = i%12;
+				var display_year = i >= 12 ? currentDate.getFullYear()+1 : currentDate.getFullYear() ;
+			  this.wrt("<li class='month-item' value='"+i%12+"'><a href='javascript:calendar.makeCalendar(\""+ input_id + "\"," +(display_year)+","+(display_month)+");'><span class='month-name'>"+this.month_names[display_month]+"</span><span class='month-year'>" + display_year + "</span></a></li>");
       }
 		}
-		this.wrt("</ul></div></th>");
-		this.wrt("<th><a class='next-month' href='javascript:calendar.makeCalendar(\""+ input_id + "\"," +(next_month_year)+","+(next_month)+");' title='"+this.month_names[next_month]+" "+(next_month_year)+"'><span class='next-month-name'>" + this.month_names[next_month].substr(0, 3) + "</span><i class='ac-icon ac-1x arrow-right'></i></a></th></tr>");
+		this.wrt("</ul></div></th><th>");
+		var i
+		if( (next_month_year === currentDate.getFullYear() && next_month < currentDate.getMonth() + 9) || (next_month_year > currentDate.getFullYear() && next_month < (currentDate.getMonth() + 9)%12)) {
+		this.wrt("<a class='next-month' href='javascript:calendar.makeCalendar(\""+ input_id + "\"," +(next_month_year)+","+(next_month)+");' title='"+this.month_names[next_month]+" "+(next_month_year)+"'><span class='next-month-name'>" + this.month_names[next_month].substr(0, 3) + "</span><i class='ac-icon ac-1x arrow-right'></i></a>");
+		}
+		this.wrt("</th></tr>")
 		this.wrt("<tr class='header'>");
 		for(var weekday=0; weekday<7; weekday++) this.wrt("<td>"+this.weekdays[weekday]+"</td>");
 		this.wrt("</tr>");
