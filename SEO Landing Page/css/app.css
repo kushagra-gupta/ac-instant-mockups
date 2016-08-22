@@ -1,0 +1,115 @@
+.instant-search-page .banner-container {position: relative;}
+.instant-search-page .banner-container .banner-content-section {position: absolute; padding: 40px; top: 50px; background: #FFF; left: 50px; opacity: 0.9;}
+.instant-search-page .banner-container .banner-content-section .banner-content-heading {}
+.instant-search-page .banner-container .banner-content-section .banner-content-heading h2 {font-weight: 600;}
+.instant-search-page .banner-container .banner-content-desc {font-size: 1.714em;}
+.instant-search-page .banner-container .banner-content-desc .banner-price {font-size: 1.286em; color: #D8292F; font-weight: 600;}
+.instant-search-page .booking-magnet-container {background: #4A4F55;}
+.instant-search-page .container {padding-top: 40px; padding-bottom: 40px;}
+.instant-search-page .container .instant-row {padding-bottom: 30px;}
+.instant-search-page .container .instant-row:last-child {padding-bottom: 0px;}
+.instant-search-page .container .instant-row .instant-col {padding-left: 10px; padding-right: 10px;}
+.instant-search-page .container .instant-col:first-child {padding-left: 0px;}
+.instant-search-page .container .instant-col:last-child {padding-right: 0px;}
+.instant-search-page .booking-magnet-container .container .instant-row .instant-col .instant-ac-icon {color: #FFF;}
+.instant-search-page .booking-magnet-container .container .instant-row .instant-col .label-inline {margin-top: 0px;}
+.instant-search-page .booking-magnet-container .container .instant-row .instant-col .label-inline:first-child {margin-right: 20px;}
+.instant-search-page .booking-magnet-container .container .instant-row .instant-col .label-inline .form-label-text {color: #FFF; font-weight: 600; text-transform: none;margin-bottom: 0;}
+.instant-search-page .booking-magnet-container .container .instant-row .instant-col .form-element-wrapper {}
+.instant-search-page .booking-magnet-container .container .instant-row .instant-col .form-element-wrapper .form-control {margin-bottom: 0px;}
+.instant-search-page .booking-magnet-container .container .instant-row .instant-col .stretched-button{width: 100%;}
+.instant-search-page .booking-magnet-container .container .instant-row .instant-col .show-more-link {color: #FFF;}
+.instant-search-page .booking-magnet-container .container .instant-row .instant-col .show-more-link:hover {color: #FFF; text-decoration: none;}
+.instant-search-page .booking-magnet-container .container .instant-row .instant-col .show-more-link .form-label-text {vertical-align: super;}
+.instant-search-page .histogram-container {background: #E6E6E6;}
+.instant-search-page .histogram-container .instant-row {}
+.instant-search-page .histogram-container .instant-row .instant-col {}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list {margin: 0; padding: 0; width: 100%; display: block;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item {display: inline-block; margin-bottom: 0px; width: calc(100% / 14); margin-right: 49.5px; vertical-align: bottom;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content {background: #FFF; padding: 10px; cursor: pointer; position: relative; -ms-transition: all 0.2s; -o-transition: all 0.2s; -moz-transition: all 0.2s; -webkit-transition: all 0.2s; transition: all 0.2s;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item:last-child {margin-right: 0px;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item:last-child .histogram-item-content {background: #FFF;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content .calendar-price-link {position: absolute; bottom: 10px; color: #4A4F55; text-decoration: none; text-align: center; width: calc(100% - 20px);}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content .calendar-price-link:hover {position: absolute; bottom: 10px; color: #4A4F55; text-decoration: none;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content .calendar-price-link .starting-text {display: block; margin-bottom: 5px;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content .calendar-price-link .month-price {display: block; font-size: 1.714em; font-weight: 600;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .month-shortened-name {text-align: center; margin-top: 10px;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item.current-month .histogram-item-content {background: #D8292F;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item.current-month .histogram-item-content .calendar-price-link {color: #FFF;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item.current-month .histogram-item-content .calendar-price-link:hover {color: #FFF;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item.lowest-month .histogram-item-content {}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item.lowest-month .histogram-item-content .calendar-price-link {color: #D8292F;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item.lowest-month .histogram-item-content .calendar-price-link:hover {color: #D8292F;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item.lowest-month .month-shortened-name {color: #D8292F;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content:hover {-moz-transform: scale(1.1); -webkit-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1); background: #4A4F55;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content:hover .calendar-price-link {color: #FFF;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content:hover .calendar-price-link:hover {color: #FFF;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content:hover .calendar-price-link .starting-text {color: #FFF;}
+.instant-search-page .histogram-container .instant-row .instant-col .histogram-list .histogram-item .histogram-item-content:hover .calendar-price-link .month-price {color: #FFF;}
+.calendar-box {width: 100%;}
+.calendar-box table {width: 100%; border: 0; border-collapse: separate; border-spacing: 5px; table-layout: fixed;}
+.calendar-box table tr th {border: 0; background: 0; padding: 0;}
+.calendar-box table tr th.calendar-title {position: relative;}
+.calendar-box table tr th.calendar-title .current-title {display: inline-block;}
+.instant-search-page .calendar-box table tr th.calendar-title .current-title .current-month-name {font-size: 2.571em; font-weight: 600; color: #D8292F; text-transform: uppercase;}
+.calendar-box table tr th.calendar-title .current-title .ac-icon {margin-left: 10px; cursor: pointer; padding: 10px; color: #D8292F;}
+.calendar-box table tr th.calendar-title .calendar-month-list {display: none;position: absolute; list-style-type: none; background: #E6E6E6; margin: 0; padding: 10px 0; z-index: 1; left: 50%; margin-left: 57px; -webkit-box-shadow: 0 5px 16px rgba(0,0,0,.2); -moz-box-shadow: 0 5px 16px rgba(0,0,0,.2); -ms-box-shadow: 0 5px 16px rgba(0,0,0,.2); -o-box-shadow: 0 5px 16px rgba(0,0,0,.2); box-shadow: 0 5px 16px rgba(0,0,0,.2);}
+.calendar-box table tr th.calendar-title .calendar-month-list .month-item {padding: 5px 10px; margin-bottom: 0; text-transform: uppercase; text-align: left; cursor: pointer;}
+.calendar-box table tr th.calendar-title .calendar-month-list .month-item .month-name {font-size: 1.286em; font-weight: 600;}
+.calendar-box table tr th.calendar-title .calendar-month-list .month-item .month-year {margin-left: 5px; font-size: 0.857em; font-weight: 400;}
+.calendar-box table tr th.calendar-title .calendar-month-list .month-item:hover {background: #D8292F; color: #FFF;}
+.calendar-box table tr th.calendar-title .current-title:hover {cursor: pointer;}
+.instant-search-page .calendar-box table tr th.calendar-title .current-title:hover .ac-icon {background: #E6E6E6; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;-ms-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2); -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
+.calendar-box table tr th.calendar-title .current-title:hover .calendar-month-list{display: block;}
+.calendar-box table tr th .next-month {padding: 10px 20px; background: #F1F1F1; text-decoration: none; display: block;}
+.calendar-box table tr th .next-month:hover {text-decoration: none;}
+.instant-search-page .calendar-box table tr th .next-month .next-month-name {color: #D8292F; font-size: 2.143em; text-transform: uppercase; margin-right: 5px;}
+.calendar-box table tr td {width: calc(100% / 7);}
+.calendar-box table tr.header td {border: 0; text-align: center; padding: 20px 0; font-size: 1.714em; font-weight: 400;}
+.calendar-box table tr td.days {background: #F1F1F1; vertical-align: top; padding: 0;}
+.calendar-box table tr td.days .calendar-grid {display: block; height: 100%; padding: 10px; color: #4A4F55; text-decoration: none; position: relative; -ms-transition: all 0.2s; -o-transition: all 0.2s; -moz-transition: all 0.2s; -webkit-transition: all 0.2s; transition: all 0.2s;}
+.calendar-box table tr td.days .calendar-grid .calendar-date {text-align: right;}
+.instant-search-page .calendar-box table tr td.days .calendar-grid .calendar-date-price {margin-top: calc(100% / 3);text-align: center; font-size: 2.571em; font-weight: 600;}
+.calendar-box table tr td.days .calendar-grid .select-departure-text {display: none; text-align: center;}
+.instant-search-page .calendar-box table tr td.days .calendar-grid .calendar-price-terms {text-align: center; text-transform: uppercase;}
+.calendar-box table tr td.days .calendar-grid:hover {background: #4A4F55; color: #FFF;-moz-transform: scale(1.1); -webkit-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+.calendar-box table tr td.days .calendar-grid:hover .calendar-date {text-align: right; font-weight: 600;}
+.calendar-box table tr td.days .calendar-grid:hover .calendar-date-price {margin-top: 0;}
+.calendar-box table tr td.days .calendar-grid:hover .select-departure-text {margin-top: calc(100% / 6); display: block; text-decoration: underline; margin-bottom: 5px;}
+.lowest-fare-page .booking-magnet-container {background: #FFF;}
+.lowest-fare-page .booking-magnet-container .
+.lowest-fare-page .booking-magnet-container { padding: 40px; left: 50px; opacity: 0.9;}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content {background: #4A4F55; padding: 40px;}
+.lowest-fare-page .container {padding-top: 40px; padding-bottom: 40px;}
+.lowest-fare-page .container .instant-row {padding-bottom: 30px;}
+.lowest-fare-page .container .instant-row:last-child {padding-bottom: 0px;}
+.lowest-fare-page .container .instant-row .instant-col {padding-left: 10px; padding-right: 10px;}
+.lowest-fare-page .container .instant-col:first-child {padding-left: 0px;}
+.lowest-fare-page .container .instant-col:last-child {padding-right: 0px;}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content .instant-row .instant-col .instant-ac-icon {color: #FFF;}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content .instant-row .instant-col .label-inline {margin-top: 0px;}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content .instant-row .instant-col .label-inline:first-child {margin-right: 20px;}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content .instant-row .instant-col .label-inline .form-label-text {color: #FFF; font-weight: 600; text-transform: none;margin-bottom: 0;}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content .instant-row .instant-col .form-element-wrapper {}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content .instant-row .instant-col .form-element-wrapper .form-control {margin-bottom: 0px;}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content .instant-row .instant-col .stretched-button{width: 100%;}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content .instant-row .instant-col .show-more-link {color: #FFF;}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content .instant-row .instant-col .show-more-link:hover {color: #FFF; text-decoration: none;}
+.lowest-fare-page .booking-magnet-container .booking-magnet-content .instant-row .instant-col .show-more-link .form-label-text {vertical-align: super;}
+.lowest-fare-page .calendar-box table tr td.days .calendar-grid .calendar-date-price {margin-top: calc(100% / 5);text-align: center; font-size: 1.286em; font-weight: 600;}
+.lowest-fare-page .calendar-box table tr td.days .calendar-grid .calendar-price-terms {text-align: center; text-transform: uppercase; font-size: 0.6em; font-weight: 600;}}
+.lowest-fare-page .calendar-box table tr td.days .calendar-grid:hover {background: #4A4F55; color: #FFF;-moz-transform: scale(1.1); -webkit-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+.lowest-fare-page .calendar-box table tr td.days .calendar-grid:hover .calendar-date {text-align: right; font-weight: 600; font-size: 0.875em}
+.lowest-fare-page .calendar-box table tr td.days .calendar-grid:hover .calendar-date-price {margin-top: 0;}
+.lowest-fare-page .calendar-box table tr td.days .calendar-grid:hover .select-departure-text {margin-top: 0px; display: block; text-decoration: underline; margin-bottom: 0px;font-size: 0.7em; text-transform: uppercase;}
+.lowest-fare-page .calendar-box table tr th.calendar-title .current-title .current-month-name {font-size: 1.286em; font-weight: 600; color: #D8292F; text-transform: uppercase;}
+.lowest-fare-page .calendar-box table tr th.calendar-title .current-title .ac-icon {margin-left: 5px; padding: 5px;}
+.lowest-fare-page .calendar-box table tr th .next-month, .lowest-fare-page .calendar-box table tr th .prev-month {padding: 10px; background: #F1F1F1; text-decoration: none; display: block;}
+.lowest-fare-page .calendar-box table tr th .next-month .next-month-name, .lowest-fare-page .calendar-box table tr th .prev-month .prev-month-name {color: #D8292F; font-size: 1.143em; text-transform: uppercase; margin-right: 5px;}
+.lowest-fare-page .calendar-box table tr th .prev-month .prev-month-name {margin-right: 0; margin-left: 5px;}
+.lowest-fare-page .calendar-box table tr th.calendar-title .current-title:hover .ac-icon {background: #E6E6E6; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;-ms-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2); -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
+.lowest-fare-page .calendar-box table tr th.calendar-title .calendar-month-list {display: none;position: absolute; list-style-type: none; background: #E6E6E6; margin: 0; padding: 10px 0; z-index: 1; left: 50%; -webkit-box-shadow: 0 5px 16px rgba(0,0,0,.2); -moz-box-shadow: 0 5px 16px rgba(0,0,0,.2); -ms-box-shadow: 0 5px 16px rgba(0,0,0,.2); -o-box-shadow: 0 5px 16px rgba(0,0,0,.2); box-shadow: 0 5px 16px rgba(0,0,0,.2);}
+.lowest-fare-page .calendar-box table tr th.calendar-title .calendar-month-list .month-item {padding: 5px 10px; margin-bottom: 0; text-transform: uppercase; text-align: left; cursor: pointer;}
+.lowest-fare-page .calendar-box table tr th.calendar-title .calendar-month-list .month-item .month-name {font-size: 1.286em; font-weight: 600;}
+.lowest-fare-page .calendar-box table tr th.calendar-title .calendar-month-list .month-item .month-year {margin-left: 5px; font-size: 0.857em; font-weight: 400;}
+.lowest-fare-page .calendar-box table tr th.calendar-title .calendar-month-list .month-item:hover {background: #D8292F; color: #FFF;}

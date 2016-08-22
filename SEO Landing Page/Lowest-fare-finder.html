@@ -1,0 +1,145 @@
+<!Doctype>
+<html lang="en">
+  <head>
+    <title>Air Canada SEO Landing Page</title>
+
+    <meta content="Buy airline tickets, find cheap airfare, last minute deals and seat sales with Air Canada. Book hotels, cars and vacations with Air Canada Vacations." name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Stylesheets inclusions goes here-->
+    <link rel="stylesheet" href="css/theme-style.css" />
+    <link rel="stylesheet" href="css/app.css" />
+
+    <!-- JS inclusion goes here-->
+    <script type="text/javascript" src="js/calendar.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </head>
+
+  <body onload="init()">
+    <header>
+
+    </header>
+
+    <main class="lowest-fare-page">
+
+      <!-- Booking Magnet Starts Here-->
+      <section class="booking-magnet-container">
+        <div class="container form-container-standard">
+        <div class="booking-magnet-header">
+            <div class="row instant-row">
+              <h2 class="title text-normal">Lowest fare finder</h2>
+            </div>
+          <div class="booking-magnet-content">
+            <div class="row instant-row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 vertical-top instant-col">
+                <label for="TRIP_TYPE" class="label-inline" aria-live="polite" aria-atomic="true">
+                  <input type="radio" name="TRIP_TYPE" value="self" id="TRIP_TYPE" checked="" aria-checked="true" tabindex="0" aria-invalid="false">
+                  <span class="form-label-text">Round-trip</span>
+                </label>
+
+                <label for="TRIP_TYPE" class="label-inline" aria-live="polite" aria-atomic="true">
+                  <input type="radio" name="TRIP_TYPE" value="self" id="TRIP_TYPE" aria-checked="false" tabindex="0" aria-invalid="false">
+                  <span class="form-label-text">One-way</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="row instant-row">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 instant-col">
+                <div class="form-element-wrapper">
+                  <select class="form-control strong" aria-labelledby="aco-title-label" id="ACOUser_TITLE" name="TITLE" aria-required="true" tabindex="0" aria-invalid="false">
+                    <option value="">Toronto YYZ</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 instant-col">
+                <div class="form-element-wrapper">
+                  <select class="form-control strong" aria-labelledby="aco-title-label" id="ACOUser_TITLE" name="TITLE" aria-required="true" tabindex="0" aria-invalid="false">
+                    <option value="">Glasgow GLA</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 instant-col">
+                <div class="form-element-wrapper">
+                  <select class="form-control strong" aria-labelledby="aco-title-label" id="ACOUser_TITLE" name="TITLE" aria-required="true" tabindex="0" aria-invalid="false">
+                    <option value="">1 Adult</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 instant-col">
+                <div class="form-element-wrapper">
+                  <select class="form-control strong" aria-labelledby="aco-title-label" id="ACOUser_TITLE" name="TITLE" aria-required="true" tabindex="0" aria-invalid="false">
+                    <option value="">Economy</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row instant-row">
+              <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 instant-col">
+                <a class="show-more-link" href="javascript: void(0);">
+                  <i class="ac-icon ac-2nx ac-icon-booking-country-of-residence instant-ac-icon"></i>
+                  <span class="form-label-text text-semi-bold" aria-live="polite" aria-atomic="true">Show more destinations</span>
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 instant-col">
+                <input type="button" class="btn btn-primary stretched-button" value="Update" tabindex="0">
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- Booking Magnet Ends Here-->
+
+
+
+      <!-- Price Based calendar starts here -->
+      <section class="calendar-container">
+        <div class="container">
+          <div class="row instant-row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 instant-col">
+              <div class="page-heading-section home-title" id="contentCarouselComponentTitle">
+                <h2 class="title text-normal">
+                  <i class="ac-icon ac-results-departing-plane"></i>
+                  <span>Depart</span>
+                </h2>
+              </div>
+              <div class="calendar-box" id="side-by-calendar-1"></div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 instant-col">
+              <div class="page-heading-section home-title" id="contentCarouselComponentTitle">
+                <h2 class="title text-normal">
+                  <i class="ac-icon ac-results-arriving-plane"></i>
+                  <span>Return</span>
+                </h2>
+              </div>
+              <div class="calendar-box" id="side-by-calendar-2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Price Based calendar ends here -->
+
+      <!-- Fare Base Placeholder starts here -->
+      <section class="placeholder-container">
+        <div class="container">
+          <div class="row instant-row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 instant-col">
+              <p>Fares are displayed and are one way, per person including taxes/fees. Fare does not include fees for checked baggage, oversized/overweight/extra baggage or optional services. <a href="javascript: void(0);">Click Here</a> for deals. Additional restrictions apply.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 instant-col">
+              <p>Fares are displayed and are one way, per person including taxes/fees. Fare does not include fees for checked baggage, oversized/overweight/extra baggage or optional services. <a href="javascript: void(0);">Click Here</a> for deals. Additional restrictions apply.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fare Base Placeholder ends here -->
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>
