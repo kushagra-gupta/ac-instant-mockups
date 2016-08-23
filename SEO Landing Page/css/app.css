@@ -80,7 +80,7 @@
 .lowest-fare-page .booking-magnet-container .
 .lowest-fare-page .booking-magnet-container { padding: 40px; left: 50px; opacity: 0.9;}
 .lowest-fare-page .booking-magnet-container .booking-magnet-content {background: #4A4F55; padding: 40px;}
-.lowest-fare-page .container {padding-top: 40px; padding-bottom: 40px;}
+.lowest-fare-page .booking-magnet-container .container {padding-top: 40px; padding-bottom: 40px;}
 .lowest-fare-page .container .instant-row {padding-bottom: 30px;}
 .lowest-fare-page .container .instant-row:last-child {padding-bottom: 0px;}
 .lowest-fare-page .container .instant-row .instant-col {padding-left: 10px; padding-right: 10px;}
@@ -116,3 +116,15 @@
 .lowest-fare-page .calendar-box table tr th.calendar-title .calendar-month-list .month-item:hover a {color: #FFF;}
 .lowest-fare-page .calendar-box table tr th.calendar-title .calendar-month-list .month-item a {color: #4A4F55;}
 .lowest-fare-page .calendar-box table tr th.calendar-title .calendar-month-list .month-item a:hover {color: #FFF; text-decoration: none;}
+.lowest-fare-page .placeholder-container .container {padding-top: 40px; padding-bottom: 40px; }
+.lowest-fare-page .placeholder-container .total-fare table tr td {border: 0px; background-color: #FFF; border-color: #FFF; padding: 0}
+.lowest-fare-page .placeholder-container .total-fare table {border: 0px;}
+.lowest-fare-page .placeholder-container .total-fare .fare-summary-table {float:right; margin-right: 5px}
+.lowest-fare-page .placeholder-container .total-fare .fare-summary-table .fare-summary-label {padding:0}
+.lowest-fare-page .placeholder-container .total-fare .fare-summary-table .fare-summary-header { font-size: 2.571em; font-weight: 600; margin-right: 10px}
+.lowest-fare-page .placeholder-container .total-fare .fare-summary-table .fare-summary-description { font-weight: 400;}
+.lowest-fare-page .placeholder-container .total-fare .fare-summary-table .fare-summary-box { padding: 5px 5px 5px 20px ; border: 1px solid #CCC; float: right; width: 100%}
+.lowest-fare-page .placeholder-container .total-fare .fare-summary-table .fare-summary-box .fare-price { font-size: 2.571em; font-weight: 600;}
+.lowest-fare-page .placeholder-container .total-fare .fare-summary-table .fare-summary-box .fare-currency { font-size: 1.714em; font-weight: 600;}
+.lowest-fare-page .placeholder-container .total-fare .fare-summary-table .fare-summary-box .fare-condition { font-weight: 400;}
+.lowest-fare-page .placeholder-container .total-fare .fare-summary-table .btn { margin-top: 20px}
